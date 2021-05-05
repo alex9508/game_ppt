@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+
+		<div class="__Eleccion">
+			
+				<img src="./src/img/hello.svg"
+						 alt="Papel"
+						 id="__Papel"
+						 class="__Papel __ele"
+						 onclick="startGame( 1 )"
+				/>
+
+				<img src="./src/img/piedra.svg"
+						 alt="Piedra"
+						 id="__Piedra"
+						 class="__Piedra __ele"
+						 onclick="startGame( 2 )"
+				/>
+
+				<img src="./src/img/tijera.svg"
+						 alt="Tijera"
+						 id="__Tijera"
+						 class="__Tijera __ele"
+						 onclick="startGame( 3 )"
+				/>
+
+		</div>
+    
+		
+		<div class="__Resultado">
+
+				<img src=""
+						 alt="Piedra"
+						 id="__UserEle"
+						 class="__UserEle"
+				/>
+
+				<h2>Player 1</h2>
+
+				<img src="./src/img/vs.svg"
+						 alt="VS"
+						 id="__VS"
+						 class="__VS"
+				/>
+
+				<h2>Pc</h2>
+
+				<img src=""
+						 alt="Tijera"
+						 id="__PcEle"
+						 class="__PcEle"
+				/>
+
+				
+
+				
+		</div>
+
+
+		<div class="__GanarPerder">
+
+				<h1 id="__Champion" >El Ganador es: </h1>
+				
+		</div>
+
+</body>
+<script src="./src/main.js" ></script>
+</html>
+

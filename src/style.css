@@ -1,0 +1,82 @@
+*{
+				box-sizing: border-box;
+				padding: 0;
+				margin: 0;
+}
+
+html{
+				font-size: 62.5%;
+}
+
+body{
+
+		background-image: url(./img/b1.jpg);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+.__Eleccion,
+.__Resultado,
+.__GanarPerder {
+
+		width: 100vw;
+		height: 30vh;
+		position: relative;
+		/*border: 2px solid red;*/
+
+}
+
+.__Eleccion,
+.__Resultado,
+.__GanarPerder {
+
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+}
+
+.__Papel,
+.__Piedra,
+.__Tijera,
+.__VS,
+.__UserEle,
+.__PcEle {
+
+		width: 10%;
+
+}
+
+.__ele {
+
+		cursor: pointer;
+
+}
+
+.__ele:hover {
+
+		width: 11%;
+
+}
+
+.__UserEle,
+.__PcEle {
+		visibility: hidden;
+}
+
+.__Resultado {
+
+		/*border: 2px solid blue;*/	
+		height: 40vh;
+		font-size: 3rem;
+		color: white;
+
+}
+
+.__GanarPerder {
+
+		justify-content: center;
+		font-size: 3rem;
+		color: white;
+}
