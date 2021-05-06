@@ -9,13 +9,13 @@ const startGame = ( imagen ) =>
 
 		let pcElection = Math.floor(Math.random() * (4 - 1)) + 1;
 
-		if ( imagen === 1) userElection.src = './src/img/hello.svg'
-		else if ( imagen === 2 ) userElection.src = './src/img/piedra.svg'
-		else userElection.src = './src/img/tijera.svg'
+		if ( imagen === 1) userElection.src = 'https://i.postimg.cc/6QJxfQS3/hello.webp'
+		else if ( imagen === 2 ) userElection.src = 'https://i.postimg.cc/ryCG8YcY/piedra.webp'
+		else userElection.src = 'https://i.postimg.cc/Qx8QVkdN/tijera.webp'
 
-		if ( pcElection === 1) pcImg.src = './src/img/hello.svg'
-		else if ( pcElection === 2 ) pcImg.src = './src/img/piedra.svg'
-		else pcImg.src = './src/img/tijera.svg'
+		if ( pcElection === 1) pcImg.src = 'https://i.postimg.cc/6QJxfQS3/hello.webp'
+		else if ( pcElection === 2 ) pcImg.src = 'https://i.postimg.cc/ryCG8YcY/piedra.webp'
+		else pcImg.src = 'https://i.postimg.cc/Qx8QVkdN/tijera.webp'
 
 		if( imagen === 1 && pcElection === 2 ||
 		imagen === 2 && pcElection === 3 ||

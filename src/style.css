@@ -23,6 +23,7 @@ body{
 		width: 100vw;
 		height: 30vh;
 		position: relative;
+		overflow: hidden;
 		/*border: 2px solid red;*/
 
 }
@@ -44,19 +45,28 @@ body{
 .__UserEle,
 .__PcEle {
 
-		width: 10%;
+		width: 100%;
+		height: 100%;
+
+}
+
+.contenedor {
+
+		width: 100px;
+		height: 100px;
+		overflow: hidden;
+
+}
+
+.__ele:hover {
+		
+		transform: scale(1.05, 1.05);
 
 }
 
 .__ele {
 
 		cursor: pointer;
-
-}
-
-.__ele:hover {
-
-		width: 11%;
 
 }
 
@@ -69,14 +79,16 @@ body{
 
 		/*border: 2px solid blue;*/	
 		height: 40vh;
-		font-size: 3rem;
+		font-size: 1.7rem;
 		color: white;
+		font-weight: bold;
 
 }
 
 .__GanarPerder {
 
 		justify-content: center;
-		font-size: 3rem;
+		font-size: 1.5rem;
 		color: white;
+		font-weight: bold;
 }

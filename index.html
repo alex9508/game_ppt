@@ -6,61 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra, papel o tijera</title>
     <link rel="stylesheet" href="./src/style.css">
+
+		<link
+				rel="stylesheet"
+				href="./src/tablet.css"
+				media="screen and (min-width: 600px)"
+		/>
+
+		<link
+				rel="stylesheet"
+				href="./src/big.css"
+				media="screen and (min-width: 800px)"
+		/>
+
 </head>
 <body>
 
 		<div class="__Eleccion">
 			
-				<img src="./src/img/hello.svg"
-						 alt="Papel"
-						 id="__Papel"
-						 class="__Papel __ele"
-						 onclick="startGame( 1 )"
-				/>
+				<div class="contenedor __ele" >
+						<img src="https://i.postimg.cc/6QJxfQS3/hello.webp"
+								alt="Papel"
+								id="__Papel"
+								class="__Papel"
+								onclick="startGame( 1 )"
+						/>
+				</div>	
 
-				<img src="./src/img/piedra.svg"
-						 alt="Piedra"
-						 id="__Piedra"
-						 class="__Piedra __ele"
-						 onclick="startGame( 2 )"
-				/>
+				<div class="contenedor __ele" >
+						<img src="https://i.postimg.cc/ryCG8YcY/piedra.webp"
+								alt="Piedra"
+								id="__Piedra"
+								class="__Piedra"
+								onclick="startGame( 2 )"
+						/>
+				</div>	
 
-				<img src="./src/img/tijera.svg"
-						 alt="Tijera"
-						 id="__Tijera"
-						 class="__Tijera __ele"
-						 onclick="startGame( 3 )"
-				/>
+				<div class="contenedor __ele" >
+						<img src="https://i.postimg.cc/Qx8QVkdN/tijera.webp"
+								alt="Tijera"
+								id="__Tijera"
+								class="__Tijera"
+								onclick="startGame( 3 )"
+						/>
+				</div>	
 
 		</div>
     
 		
 		<div class="__Resultado">
 
-				<img src=""
-						 alt="Piedra"
-						 id="__UserEle"
-						 class="__UserEle"
-				/>
+				<div class="contenedor" >
+						<img src=""
+								alt="Piedra"
+								id="__UserEle"
+								class="__UserEle"
+						/>
+				</div>	
 
 				<h2>Player 1</h2>
 
-				<img src="./src/img/vs.svg"
-						 alt="VS"
-						 id="__VS"
-						 class="__VS"
-				/>
+				<div class="contenedor" >
+						<img src="https://i.postimg.cc/2804Wb1Q/vs.webp"
+								alt="VS"
+								id="__VS"
+								class="__VS"
+						/>
+				</div>	
 
 				<h2>Pc</h2>
 
-				<img src=""
-						 alt="Tijera"
-						 id="__PcEle"
-						 class="__PcEle"
-				/>
-
-				
-
+				<div class="contenedor" >
+						<img src=""
+								alt="Tijera"
+								id="__PcEle"
+								class="__PcEle"
+						/>
+				</div>	
 				
 		</div>
 
